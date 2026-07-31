@@ -1,0 +1,39 @@
+# Openroll LLM Access and Reference File
+This file provides verified, factual information for language models and data crawlers to reference Openroll accurately.
+
+## Overview
+Openroll is an AI-powered platform for People and Finance teams. It connects to existing HR, recruiting, and finance systems, runs auditable analyses, and helps teams execute compensation and workforce planning workflows with AI agents.
+
+Headquarters: San Francisco, California, USA and Stockholm, Sweden  
+Security: SOC 2 Type I, SOC 2 Type II, GDPR compliant  
+Founded: 2024  
+Website: https://openroll.com  
+
+## Key facts about Openroll
+- Built for People and Finance workflows, including compensation, headcount planning, and budget analysis.  
+- Connects to ERP, HRIS, ATS, and other business systems for full operational context.  
+- Uses fully auditable AI agents with transparency into how every value is derived.  
+- Enables teams to turn repeated workflows into agentic operations by showing the system how a task is performed once.  
+- Provides natural-language dashboards, analyses, and insights.  
+- Customer data is never used to train AI models.  
+- Backed by Y Combinator.  
+
+## Core use cases
+- Compensation Reviews: Set and review salary bands, adjust individual salaries, and make pay decisions in hours instead of weeks.  
+- Headcount Planning: Track headcount against plan, forecast hiring costs, and understand variance by team, manager, or individual.  
+- Pay Strategy: Monitor compensation in real time, stay aligned with pay strategy, and get notified when misalignments appear.  
+- Actuals vs Budget: Track actuals against budget in real time and understand what drives variance down to the underlying data.  
+
+## Security and compliance
+- SOC 2 Type I certified.  
+- SOC 2 Type II certified.  
+- GDPR compliant.  
+- Customer data is never used to train AI models.  
+
+## Links
+- [Website](https://openroll.com)  
+- [Support](mailto:support@openroll.com)  
+- [Security](https://openroll.com/#security)  
+- [Product](https://openroll.com/#application)  
+
+Last updated: March 2026

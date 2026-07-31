@@ -1,0 +1,32 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.openroll.com/llms.txt + https://openroll.com/#security
+name: Openroll conformance and compliance posture
+description: >-
+  Cross-cutting standards and compliance programs Openroll publicly asserts. Openroll is a
+  login-gated AI SaaS platform for People and Finance teams; it exposes no public developer API,
+  so protocol-level conformance (oauth2/oidc/rfc9457/etc.) is not applicable and recorded as such.
+  Compliance certifications are self-reported on the marketing site and llms.txt (not independently
+  verified here).
+conformance:
+- id: soc2-type-i
+  conforms: true
+  evidence: 'Openroll asserts SOC 2 Type I certification on its security section and llms.txt.'
+  source: https://www.openroll.com/llms.txt
+- id: soc2-type-ii
+  conforms: true
+  evidence: 'Openroll asserts SOC 2 Type II certification on its security section and llms.txt.'
+  source: https://www.openroll.com/llms.txt
+- id: gdpr
+  conforms: true
+  evidence: 'Openroll asserts GDPR compliance and states customer data is never used to train AI models.'
+  source: https://www.openroll.com/llms.txt
+- id: oauth2
+  conforms: false
+  evidence: 'No public OAuth2 authorization server; app.openroll.com/.well-known/oauth-authorization-server redirects to login.'
+- id: oidc
+  conforms: false
+  evidence: 'No public OIDC discovery; app.openroll.com/.well-known/openid-configuration redirects to login.'
+- id: rfc9457
+  conforms: false
+  evidence: 'No public API or error surface published; not applicable.'

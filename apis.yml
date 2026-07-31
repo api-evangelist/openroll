@@ -1,7 +1,24 @@
 aid: openroll
 name: Openroll
-description: Openroll is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Openroll is an AI-native operating system for compensation, built for People and Finance teams.
+  It connects to existing HRIS, ATS, ERP, and finance systems, runs fully auditable analyses, and
+  turns repeated workflows into agentic operations - covering compensation reviews, salary bands,
+  headcount planning, pay-strategy monitoring, and actuals-versus-budget variance. Founded in 2024
+  and backed by Y Combinator, Openroll operates from San Francisco and Stockholm, is SOC 2 Type I
+  and Type II certified and GDPR compliant, and never uses customer data to train its AI models.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://openroll.com/openroll-logo.png
 url: https://raw.githubusercontent.com/api-evangelist/openroll/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +28,47 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Compensation
+- Human Resources
+- Finance
+- Payroll
+- Artificial Intelligence
+- Workforce Planning
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/openroll-domain-security.yml
+- type: Website
+  url: https://openroll.com
+- type: Blog
+  url: https://openroll.com/blog
+- type: Login
+  url: https://app.openroll.com/login
+- type: Support
+  url: mailto:support@openroll.com
+- type: PrivacyPolicy
+  url: https://openroll.com/privacy-policy
+- type: TermsOfService
+  url: https://openroll.com/terms-of-service
+- type: LinkedIn
+  url: https://linkedin.com/company/openroll
+- type: LLMsTxt
+  url: llms/openroll-llms.txt
+- type: Conformance
+  url: conformance/openroll-conformance.yml
+- type: Compliance
+  url: conformance/openroll-conformance.yml
