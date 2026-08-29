@@ -7,6 +7,17 @@ description: >-
   headcount planning, pay-strategy monitoring, and actuals-versus-budget variance. Founded in 2024
   and backed by Y Combinator, Openroll operates from San Francisco and Stockholm, is SOC 2 Type I
   and Type II certified and GDPR compliant, and never uses customer data to train its AI models.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
